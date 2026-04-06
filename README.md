@@ -2,8 +2,8 @@
 ### Predictive Financial Guardrails for MSME Business Owners
 
 **SpendShield** is a real-time behavioral AI engine designed to protect small business owners from liquidity crises. By analyzing spending velocity and transaction patterns, it provides automated **"Safe Daily Limits"** to ensure month-end financial stability.
-
-<img width="1511" height="802" alt="Screenshot 2026-04-06 144827" src="https://github.com/user-attachments/assets/b8035b95-2174-4ee6-8ad7-c2d49b0a81e7" />
+---
+<img width="1660" height="812" alt="Screenshot 2026-04-06 163740" src="https://github.com/user-attachments/assets/4f05a032-98cd-46e7-88bb-d135cc52c10f" />
 
 ---
 
@@ -57,7 +57,13 @@ spendshield/
 - Engine Reset: One-click database truncation to demonstrate "Cold Start" ML learning during live demos.
 - Predictive Forecast: Visualizes the delta between current spend and the projected monthly liability.
 - Automated Ledger: Real-time ingestion feed with AI-assigned status labels (Safe, Warning, Breach).
+--
+Unlike traditional apps that hide logic, SpendShield features a **Proactive Push Notification Layer** powered by `react-hot-toast`. 
 
+* **Real-time Context:** Every alert identifies the specific **Category** (e.g., Shopping, Travel) and the **Inference Reason**.
+* **Visual Urgency:** Popups are color-coded based on risk severity (Amber for Warnings, Crimson for Breaches).
+* **Automated Monitoring:** The dashboard continuously "scans" the background transaction stream (from `stream.js`). If the AI detects a risky pattern in the simulator, it triggers a **Top-Right Alert** instantly, even if the user hasn't refreshed the page.
+--
 ## 🔄 The Transaction Lifecycle (Step-by-Step)
 
 When a user (like Arjun) makes a transaction, **SpendShield** executes a 4-step real-time processing sequence:
@@ -77,11 +83,11 @@ The engine runs two mathematical checks simultaneously:
 2. **Anomaly Check (LSTM-lite):** It compares the current spend to the last 5 transactions. If a user usually spends **₹200** on chai but suddenly spends **₹8,000**, the AI flags a **Temporal Spike**.
 
 ### **Step 4: Live Guardrail Update (The Output)**
-Within sub-milliseconds, the backend persists the transaction and pushes the **Inference Result** to the React Frontend:
+The backend persists the transaction and pushes the **Inference Result** to the React Frontend:
 * 🟢 **Green (Safe):** Transaction is within predicted limits.
-* 🟡 **Yellow (Warning):** The AI detects an anomaly or predicts a future budget breach.
-* 🔴 **Red (Breach):** The user has officially exceeded their liquidity cap.
-* **Dynamic Adjustment:** The **"Safe Daily Limit"** card on the dashboard shrinks instantly to compensate for the spend, providing an immediate behavioral nudge.
+* 🟡 **Yellow (Warning):** **Popup Alert triggered** for anomalies or high-velocity spending.
+* 🔴 **Red (Breach):** **Critical Alert triggered** for exceeding the liquidity cap.
+* **Dynamic Adjustment:** The **"Safe Daily Limit"** card shrinks instantly to compensate for the spend.
 
 ---
 
