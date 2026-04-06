@@ -25,7 +25,7 @@ Our system moves beyond simple budgeting by using a multi-staged hybrid inferenc
 ---
 
 ## 📂 File Architecture
-```text
+
 spendshield/
 ├── client/                # React Frontend (Vite + Tailwind)
 │   ├── src/
