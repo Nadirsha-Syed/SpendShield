@@ -50,7 +50,7 @@ spendshield/
 
 ---
 
-📊 Key Features
+##📊 Key Features
 -Adaptive Guardrails: The "Safe Daily Limit" updates every 5 seconds based on incoming data velocity.
 -Engine Reset: One-click database truncation to demonstrate "Cold Start" ML learning during live demos.
 -Predictive Forecast: Visualizes the delta between current spend and the projected monthly liability.
