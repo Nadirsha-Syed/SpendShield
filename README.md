@@ -25,7 +25,7 @@ Our system moves beyond simple budgeting by using a multi-staged hybrid inferenc
 ---
 
 ## 📂 File Architecture
-''' text 
+```text
 spendshield/
 ├── client/                # React Frontend (Vite + Tailwind)
 │   ├── src/
@@ -39,7 +39,7 @@ spendshield/
 │   └── .env               # Configuration (Mongo URI & Ports)
 ├── README.md              # Project Documentation
 └── package.json           # Global dependencies
-'''
+```
 ---
 
 ## 🛠️ Tech Stack
