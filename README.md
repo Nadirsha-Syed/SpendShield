@@ -26,10 +26,3 @@ Our system moves beyond simple budgeting by using a multi-staged inference engin
 - **ML Logic:** Custom Hybrid Inference Engine
 
 ---
-
-## 🚦 Getting Started
-
-### Prerequisites
-- Node.js v18+
-- MongoDB Atlas Account (or Local MongoDB)
-
