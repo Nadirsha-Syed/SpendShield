@@ -2,6 +2,7 @@
 ### Predictive Financial Guardrails for MSME Business Owners
 
 **SpendShield** is a real-time behavioral AI engine designed to protect small business owners from liquidity crises. By analyzing spending velocity and transaction patterns, it provides automated **"Safe Daily Limits"** to ensure month-end financial stability.
+
 <img width="1511" height="802" alt="Screenshot 2026-04-06 144827" src="https://github.com/user-attachments/assets/b8035b95-2174-4ee6-8ad7-c2d49b0a81e7" />
 
 ---
@@ -85,4 +86,4 @@ Within sub-milliseconds, the backend persists the transaction and pushes the **I
 ---
 
 ## 🎓 Professional Summary for Professors
-"SpendShield utilizes **Deterministic Inference** to minimize system latency. By performing the ML calculations (Regression and CART) within the Node.js runtime instead of an external Python microservice, we achieve **Real-time Guardrail Synthesis**. This ensures that the user receives financial feedback in the same 'session' as the transaction, maximizing the psychological impact on spending behavior and maintaining data integrity through a stateless architectural pattern."
+SpendShield utilizes **Deterministic Inference** to minimize system latency. By performing the ML calculations (Regression and CART) within the Node.js runtime instead of an external Python microservice, we achieve **Real-time Guardrail Synthesis**. This ensures that the user receives financial feedback in the same 'session' as the transaction, maximizing the psychological impact on spending behavior and maintaining data integrity through a stateless architectural pattern.
