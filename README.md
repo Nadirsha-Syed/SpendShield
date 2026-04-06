@@ -85,4 +85,4 @@ Within sub-milliseconds, the backend persists the transaction and pushes the **I
 ---
 
 ## 🎓 Professional Summary for Professors
-> "SpendShield utilizes **Deterministic Inference** to minimize system latency. By performing the ML calculations (Regression and CART) within the Node.js runtime instead of an external Python microservice, we achieve **Real-time Guardrail Synthesis**. This ensures that the user receives financial feedback in the same 'session' as the transaction, maximizing the psychological impact on spending behavior and maintaining data integrity through a stateless architectural pattern."
+"SpendShield utilizes **Deterministic Inference** to minimize system latency. By performing the ML calculations (Regression and CART) within the Node.js runtime instead of an external Python microservice, we achieve **Real-time Guardrail Synthesis**. This ensures that the user receives financial feedback in the same 'session' as the transaction, maximizing the psychological impact on spending behavior and maintaining data integrity through a stateless architectural pattern."
